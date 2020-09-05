@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="-40dp"
+    tools:context=".Faqja3">
+
+    <Button
+        android:id="@+id/btnReset"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="-10dp"
+        android:background="#2C682E"
+        android:text="RESTART_SERVICE"
+        android:textColor="@color/cyan" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recycle_list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="30dp"
+        />
+<!--    <ScrollView-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="match_parent"-->
+<!--        android:layout_marginTop="-40dp"-->
+<!--        android:padding="16sp"-->
+<!--        android:scrollbarSize="25sp"-->
+<!--        tools:context=".MainActivity">-->
+
+<!--        <LinearLayout-->
+<!--            android:id="@+id/mylayout"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+
+<!--            android:gravity="center_horizontal"-->
+<!--            android:layout_marginTop="-50dp"-->
+<!--            android:orientation="vertical"-->
+<!--            android:padding="8dp">-->
+
+
+
+
+<!--        </LinearLayout>-->
+<!--    </ScrollView>-->
+</FrameLayout>

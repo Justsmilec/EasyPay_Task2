@@ -1,0 +1,2 @@
+rootProject.name='EasyPay_Task'
+include ':app'
